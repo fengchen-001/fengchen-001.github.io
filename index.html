@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站 - 首页</title>
+    <!-- 引入样式文件 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入图标库（可选，用于美化） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">我的网站</a>
+            <!-- 移动端菜单按钮 -->
+            <button class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!-- 导航链接 -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">首页</a></li>
+                <li><a href="about.html">关于我</a></li>
+                <li><a href="contact.html">联系我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 英雄区（首页核心展示） -->
+    <section class="hero">
+        <div class="container">
+            <h1>欢迎来到我的个人网站</h1>
+            <p>这是一个基础的响应式网站模板，你可以自由修改内容和样式</p>
+            <a href="about.html" class="btn">了解更多</a>
+        </div>
+    </section>
+
+    <!-- 特色板块 -->
+    <section class="features">
+        <div class="container">
+            <h2>核心特色</h2>
+            <div class="feature-cards">
+                <div class="card">
+                    <i class="fas fa-code"></i>
+                    <h3>简洁代码</h3>
+                    <p>使用标准HTML/CSS/JS编写，易读易修改</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>响应式设计</h3>
+                    <p>适配电脑、平板、手机等所有设备</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>自定义样式</h3>
+                    <p>可轻松修改颜色、字体、布局等样式</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 我的个人网站 | 保留所有权利</p>
+        </div>
+    </footer>
+
+    <!-- 引入交互脚本 -->
+    <script src="script.js"></script>
+</body>
+</html>
